@@ -114,7 +114,7 @@ class _HomeState extends State<Home> {
           statusBarBrightness: Brightness.light,
           statusBarColor: Colors.black,
         ),
-        backgroundColor: Colors.yellow,
+        backgroundColor: Colors.blueAccent,
         foregroundColor: Colors.black,
         title: const Text('2D PUZZLE'),
         centerTitle: true,
@@ -152,7 +152,7 @@ class _HomeState extends State<Home> {
                   child: Container(
                     height: 100,
                     width: 100,
-                    color: start[0] == 0 ? Colors.white : Colors.yellow,
+                    color: start[0] == 0 ? Colors.white : Colors.greenAccent,
                     child: Center(
                         child: Text(
                       start[0].toString(),
@@ -170,7 +170,7 @@ class _HomeState extends State<Home> {
                   child: Container(
                     height: 100,
                     width: 100,
-                    color: start[1] == 0 ? Colors.white : Colors.yellow,
+                    color: start[1] == 0 ? Colors.white : Colors.greenAccent,
                     child: Center(
                         child: Text(
                       start[1].toString(),
@@ -188,7 +188,7 @@ class _HomeState extends State<Home> {
                   child: Container(
                     height: 100,
                     width: 100,
-                    color: start[2] == 0 ? Colors.white : Colors.yellow,
+                    color: start[2] == 0 ? Colors.white : Colors.greenAccent,
                     child: Center(
                         child: Text(
                       start[2].toString(),
@@ -206,7 +206,7 @@ class _HomeState extends State<Home> {
                   child: Container(
                     height: 100,
                     width: 100,
-                    color: start[3] == 0 ? Colors.white : Colors.yellow,
+                    color: start[3] == 0 ? Colors.white : Colors.greenAccent,
                     child: Center(
                         child: Text(
                       start[3].toString(),
@@ -225,7 +225,7 @@ class _HomeState extends State<Home> {
                   child: Container(
                     height: 100,
                     width: 100,
-                    color: start[4] == 0 ? Colors.white : Colors.yellow,
+                    color: start[4] == 0 ? Colors.white : Colors.greenAccent,
                     child: Center(
                         child: Text(
                       start[4].toString(),
@@ -243,7 +243,7 @@ class _HomeState extends State<Home> {
                   child: Container(
                     height: 100,
                     width: 100,
-                    color: start[5] == 0 ? Colors.white : Colors.yellow,
+                    color: start[5] == 0 ? Colors.white : Colors.greenAccent,
                     child: Center(
                         child: Text(
                       start[5].toString(),
@@ -261,7 +261,7 @@ class _HomeState extends State<Home> {
                   child: Container(
                     height: 100,
                     width: 100,
-                    color: start[6] == 0 ? Colors.white : Colors.yellow,
+                    color: start[6] == 0 ? Colors.white : Colors.greenAccent,
                     child: Center(
                         child: Text(
                       start[6].toString(),
@@ -279,7 +279,7 @@ class _HomeState extends State<Home> {
                   child: Container(
                     height: 100,
                     width: 100,
-                    color: start[7] == 0 ? Colors.white : Colors.yellow,
+                    color: start[7] == 0 ? Colors.white : Colors.greenAccent,
                     child: Center(
                         child: Text(
                       start[7].toString(),
@@ -297,7 +297,7 @@ class _HomeState extends State<Home> {
                   child: Container(
                     height: 100,
                     width: 100,
-                    color: start[8] == 0 ? Colors.white : Colors.yellow,
+                    color: start[8] == 0 ? Colors.white : Colors.greenAccent,
                     child: Center(
                         child: Text(
                       start[8].toString(),
